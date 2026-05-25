@@ -1,16 +1,16 @@
-# This is a sample Python script.
+def soma(a, b):
+    return print(a+b)
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+def subtracao(a, b):
+    return print(a-b)
 
+def multiplicacao(a, b):
+    return print(a*b)
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+def divisao(a, b):
+    return print(a/b)
 
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+soma(2, 3)
+subtracao(2, 3)
+multiplicacao(2, 3)
+divisao(2, 3)
